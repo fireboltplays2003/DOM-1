@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Dom#1</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" href="Styles/style.css">
+  <script src='js.js'></script>
+</head>
+
+<body>
+  <div>
+    <p id="para" class="">This is a sample Paragraph</p>
+    <input type="text" id="userinput" placeholder="Enter text">
+    <button onclick="addHighlight()">Add Class</button>
+  </div>
+  <div>
+    <p id="first" class="hidden">this is the first paragraph</p>
+    <p id="second" class="hidden">this is the second paragraph</p>
+    <p id="third" class="hidden">this is the third paragraph</p>
+    <button onclick="toggleVisibility('first')">First paragraph</button>
+    <button onclick="toggleVisibility('second')">Second paragraph</button>
+    <button onclick="toggleVisibility('third')">Third paragraph</button>
+    <button type="text" onclick="text_button_Change()" id="textLine">Click me to change text !</button>
+  </div>
+
+
+</body>
+
+</html>

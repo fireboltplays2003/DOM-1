@@ -1,0 +1,14 @@
+.highlight {
+  background-color: rgb(119, 119, 119);
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+.hidden{
+display: none;
+}
